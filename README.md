@@ -1,2 +1,2 @@
 # Amazing-Portfolio
-I just learn about this site. This project created by Next js and tailwind css
+I just learn about this site. This project developed  by using  Next js and tailwind css
