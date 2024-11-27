@@ -22,6 +22,8 @@ export const metadata: Metadata = {
   description: "We develop various types of Ecommerce website, Mobile app and Portfolio. You are most welcome with me and my team",
 };
 
+
+//HTML
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -29,7 +31,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={twMerge("bg-gray-900 text-white antialiased")}>{children}</body>
+      <body 
+        className={twMerge(
+        inter.variable, 
+        calistoga.variable,
+        "bg-gray-900 text-white antialiased font-sans"
+        )}>
+          {children}
+      </body>
     </html>
   );
 }

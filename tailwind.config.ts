@@ -20,7 +20,14 @@ const config: Config = {
         md: "2rem",
       },
     },
-    extend: {},
+
+    //HERE I DEFINED SANS IF NOT FOUND INTER $ SERIF IF NOT FOUND SERIF
+    extend: {
+      fontFamily: {
+        sans: 'var(--font-sans)',
+        serif: 'var(--font-serif)'
+      }
+    },
   },
   plugins: [],
 };
