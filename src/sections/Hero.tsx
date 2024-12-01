@@ -57,15 +57,15 @@ export const HeroSection = () => {
         <Image className='size-[100px]' src={memojiImage} alt="Person peeking from behind laptop"/>
         <div className='bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg'>
           <div className='bg-green-500 size-2.5 rounded-full'></div>
-          <div className='text-sm font-medium'>Availabe for new projects</div>
+          <div className='text-sm font-medium'>Available for new projects</div>
         </div>
       </div>
 
       <div className='max-w-lg mx-auto'>
-        <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Buiding Exceptional User Experiences</h1>
+        <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Building Exceptional User Experiences</h1>
         <p className='mt-4 text-center text-white/60 md:text-lg'>
           I specialize in transforming designs into functional, 
-          high-performing web applications. Lets discuss your new project.
+          high-performing web applications. Let's discuss your new project.
         </p>
         <div className='flex flex-col items-center mt-8 gap-4 md:flex-row md:justify-center'>
           <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
