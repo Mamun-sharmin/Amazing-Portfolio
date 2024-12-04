@@ -56,7 +56,8 @@ export const ProjectsSection = () => {
           
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
           {portfolioProjects.map(project => (
-            <div key={project.title} className="bg-gray-800 rounded-3xl z-0 after:z-10 overflow-hidden relative after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 lg:pt-16 lg:px-20 md:px-10  after:pointer-events-none">
+            <div className="stiky">
+            <div key={project.title} className="bg-gray-800 rounded-3xl z-0 after:z-10 overflow-hidden relative after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 lg:pt-16  lg:px-20 md:px-10  after:pointer-events-none">
               <div className="absolute inset-0 -z-10 opacity-5" style={{
                 backgroundImage:`url(${ grainImage.src })`
                 }}>
@@ -93,6 +94,7 @@ export const ProjectsSection = () => {
                      className="mt-8 -mb-4 md:mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none"
                   />
                 </div>
+            </div>
             </div>
             </div>
           ))}
